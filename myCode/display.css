@@ -1,0 +1,16 @@
+#colour-display {
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    background-color: yellow;
+}
+
+span {
+    font-weight: bold;
+}
+p {
+    text-align: center;
+}
+button {
+    text-align: center;
+}

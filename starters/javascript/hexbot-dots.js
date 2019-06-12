@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 let canvas;
 let ctx;
 let appWidth;
@@ -47,7 +48,7 @@ function drawSet(responseJson) {
 
 function drawPoint(ctx, point) {
   ctx.fillStyle = point.value;
-  let pointSize = NOOPBOT_RANDOM(1,8);
+  let pointSize = 1;
   ctx.globalAlpha = Math.random();
   ctx.beginPath();
   ctx.arc(point.coordinates.x, point.coordinates.y, pointSize, 0, Math.PI * 2, true);
